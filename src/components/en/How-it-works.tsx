@@ -11,7 +11,7 @@ const steps = [
       textColor: "text-secondary-foreground",
       hoverBg: "hover:bg-secondary",
       hoverText: "hover:text-secondary-foreground",
-      button: "Calculate Now!",
+      button: "Contact Us",
     },
     {
       title: "Meet Surveyor",
@@ -22,7 +22,7 @@ const steps = [
       textColor: "text-secondary-foreground",
       hoverBg: "hover:bg-secondary",
       hoverText: "hover:text-secondary-foreground",
-      button: "Book A Survey!",
+      button: "Contact Us",
     },
     {
       title: "Check Availability",
@@ -33,7 +33,7 @@ const steps = [
       textColor: "text-secondary-foreground",
       hoverBg: "hover:bg-secondary",
       hoverText: "hover:text-secondary-foreground",
-      button: "Check Availability!",
+      button: "Contact Us",
     },
   ];
 

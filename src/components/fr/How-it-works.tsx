@@ -11,7 +11,7 @@ const steps = [
       textColor: "text-secondary-foreground",
       hoverBg: "hover:bg-secondary",
       hoverText: "hover:text-secondary-foreground",
-      button: "Calculez maintenant !",
+      button: "Contact Us",
     },
     {
       title: "Rencontrez l'arpenteur",
@@ -22,7 +22,7 @@ const steps = [
       textColor: "text-secondary-foreground",
       hoverBg: "hover:bg-secondary",
       hoverText: "hover:text-secondary-foreground",
-      button: "Réservez une enquête !",
+      button: "Contact Us",
     },
     {
       title: "Voir les disponibilités",
@@ -33,7 +33,7 @@ const steps = [
       textColor: "text-secondary-foreground",
       hoverBg: "hover:bg-secondary",
       hoverText: "hover:text-secondary-foreground",
-      button: "Voir les disponibilités!",
+      button: "Contact Us",
     },
   ];
 
