@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import { PhoneCall } from "lucide-react";
 
 export default function Navbar() {
   return (
@@ -16,21 +17,21 @@ export default function Navbar() {
           className="text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-black dark:hover:text-white"
           prefetch={false}
         >
-          Services
+          Prestations de service hmhm
         </Link>
         <Link
           href="#"
           className="text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-black dark:hover:text-white"
           prefetch={false}
         >
-          About
+          À propos
         </Link>
         <Link
           href="#"
           className="text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-black dark:hover:text-white"
           prefetch={false}
         >
-          Reviews
+          Commentaires
         </Link>
         <Link
           href="#"
@@ -40,15 +41,18 @@ export default function Navbar() {
           Contact
         </Link>
       </nav>
-      <div className="lg:flex hidden items-center space-x-4">
-        <Button variant="link" className="text-sm">
-          French
-        </Button>
-        <Button className="text-sm">Contact Us</Button>
+      <div className="flex items-center space-x-4">
+      <Link href="/">
+          <Button variant="link" className="text-sm text-[#065D98] hidden md:block">
+            English
+          </Button>
+        </Link>
+        <div className="h-7 gap-x-1.5 text-xs sm:h-8 flex text-white items-center bg-[#065D98] hover:bg-[#035186] p-4 rounded-full">
+          <PhoneCall size={14} /> 5142746654
+        </div>
       </div>
-      <div className="lg:hidden flex items-center">
-        <button className="text-black dark:text-white"></button>
-      </div>
+
+ 
     </div>
   );
 }
