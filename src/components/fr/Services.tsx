@@ -58,7 +58,7 @@ export default function Services() {
               </div>
               <h3 className="text-xl font-semibold">{service.title}</h3>
               <p className="text-muted-foreground">{service.description}</p>
-              <Button className="rounded-full bg-[#065D98] hover:bg-[#035186]">
+              <Button className="rounded-full bg-[#065D98] hover:bg-[#56BA40]">
                 Reserve maintenant
               </Button>
             </div>
