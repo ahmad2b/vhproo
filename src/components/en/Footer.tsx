@@ -1,9 +1,9 @@
-import Link from "next/link";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="py-4 px-4 lg:px-24">
+    <footer className="px-4 py-4 lg:px-24">
       <div className="container mx-auto flex flex-col items-center justify-between gap-8 px-4 sm:flex-row sm:gap-0">
         <Link href="#" className="flex items-center" prefetch={false}>
           <Image src="/logo.png" width={150} height={150} alt="logo" />
