@@ -2,17 +2,17 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="relative w-full h-[70vh] md:h-[100vh] flex items-center justify-center px-4 lg:px-24">
+    <section className="relative flex h-[70vh] w-full items-center justify-center px-4 md:h-[100vh] lg:px-24">
       <img
         src="/washing.jpg"
         alt="Pressure Washing"
-        className="absolute inset-0 w-full h-full object-cover object-center"
+        className="absolute inset-0 h-full w-full object-cover object-center"
       />
-      <div className="relative z-10 max-w-3xl px-4 md:px-6 text-center space-y-6">
-        <h1 className="text-4xl md:text-6xl font-bold text-white drop-shadow-md">
+      <div className="relative z-10 max-w-3xl space-y-6 px-4 text-center md:px-6">
+        <h1 className="text-4xl font-bold text-white drop-shadow-md md:text-6xl">
           Professional Pressure Washing Services
         </h1>
-        <p className="text-lg md:text-xl text-white drop-shadow-md">
+        <p className="text-lg text-white drop-shadow-md md:text-xl">
           Transform your property with our top-notch pressure washing solutions.
           We`&apos;`ll make your surfaces look brand new again.
         </p>
