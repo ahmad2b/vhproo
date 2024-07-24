@@ -13,7 +13,7 @@ export default function Cta() {
           </p>
         </div>
         <Link
-          href="#"
+          href="/book-now"
           className="inline-flex h-10 items-center justify-center rounded-md bg-white px-8 text-sm font-medium text-[#065D98] shadow transition-colors hover:bg-[#56BA40] hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
           prefetch={false}
         >
