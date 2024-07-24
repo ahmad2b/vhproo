@@ -6,10 +6,10 @@ export default function Cta() {
       <div className="container flex flex-col items-center justify-center gap-6 px-4 md:px-6">
         <div className="space-y-3 text-center">
           <h2 className="text-3xl font-bold tracking-tighter text-gray-50 md:text-4xl/tight">
-            Book Your Service Today
+          Request a Quote
           </h2>
-          <p className="max-w-[600px] text-white md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            Book More Services, Build More Trust With Entretein!
+          <p className="max-w-[1000px] text-white md:text-xl/relaxed lg:text-lg/relaxed">
+          Ready to experience the Entretien VH Pro difference? Contact us today to request a quote. Our team will work with you to understand your cleaning needs and provide a detailed, no-obligation quote. Whether you need a one-time service or a recurring cleaning plan, we are here to help.
           </p>
         </div>
         <Link
