@@ -42,7 +42,7 @@ export default function Navbar() {
         </Link>
       </nav>
       <div className="flex items-center space-x-4">
-      <Link href="/">
+      <Link href="/en">
           <Button variant="link" className="text-sm text-[#065D98] hidden md:block">
             English
           </Button>

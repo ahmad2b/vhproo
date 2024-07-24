@@ -8,8 +8,10 @@ import { notFound } from 'next/navigation';
 import { localesList } from '@/i18n';
 import { unstable_setRequestLocale } from 'next-intl/server';
 import { Analytics } from '@vercel/analytics/react';
-import Navbar from '@/components/en/Navbar';
-
+import EnNavbar from '@/components/en/Navbar';
+import EnFooter from '@/components/en/Footer';
+import FrNavbar from '@/components/fr/Navbar';
+import FrFooter from '@/components/fr/Footer';
 const montserrat = Montserrat({
   variable: '--font-montserrat',
   subsets: ['latin'],
@@ -46,8 +48,11 @@ export default function RootLayout({
     >
       <body className='min-h-screen bg-[#f9f9f9] antialiased'>
         <main className='mx-auto h-full'>
-        <Navbar/>
+      {params.locale === "fr" ? <FrNavbar /> : <EnNavbar />}
+
           {children} <Analytics />
+      {params.locale === "fr" ? <FrFooter /> : <EnFooter />}
+
         </main>
       </body>
     </html>
